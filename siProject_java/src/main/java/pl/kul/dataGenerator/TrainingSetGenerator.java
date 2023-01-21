@@ -17,11 +17,20 @@ public class TrainingSetGenerator {
     public List<InputData> generate(int setSize, Predicate<InputData> predicate) {
         ArrayList<InputData> dane = new ArrayList<>();
         for (int i = 0; i < setSize; i++) {
-            InputData data = creator.createData();
-            boolean test = predicate.test(data);
-            int d = test ? 1 : (isBipolar ? -1 : 0);
-            dane.add(data.withD(d));
+            InputData dataWithD = prepareData(predicate);
+            while (dane.contains(dataWithD)) {
+                dataWithD = prepareData(predicate);
+            }
+            dane.add(dataWithD);
         }
         return dane;
+    }
+
+    private InputData prepareData(Predicate<InputData> predicate) {
+        InputData data = creator.createData();
+        boolean test = predicate.test(data);
+        int d = test ? 1 : (isBipolar ? -1 : 0);
+        InputData dataWithD = data.withD(d);
+        return dataWithD;
     }
 }

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ClassificationNeuralNetModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Models">
+  <m_neuralNet xmlns:d2p1="http://schemas.datacontract.org/2004/07/SharpLearning.Neural" z:Id="2">
+    <d2p1:Layers xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="3" z:Size="9">
+      <d3p1:anyType z:Id="4" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:InputLayer">
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Undefined</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">4</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="5" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:DenseLayer">
+        <Bias xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="6" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseVector" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_Count_x003E_k__BackingField>6</d5p1:_x003C_Count_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="7" i:type="d6p1:DenseVectorStorageOffloat">
+            <d6p1:Length>6</d6p1:Length>
+            <d6p1:Data z:Id="8" z:Size="6">
+              <d3p1:float>0.306786031</d3p1:float>
+              <d3p1:float>0.06178393</d3p1:float>
+              <d3p1:float>-0.100821882</d3p1:float>
+              <d3p1:float>0.01275994</d3p1:float>
+              <d3p1:float>-0.217457369</d3p1:float>
+              <d3p1:float>0.6773819</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_length xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">6</_length>
+          <_values z:Ref="8" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Bias>
+        <BiasGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="9" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>6</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="10" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>6</d6p1:ColumnCount>
+            <d6p1:Data z:Id="11" z:Size="6">
+              <d3p1:float>-6.79438543</d3p1:float>
+              <d3p1:float>1.00443268</d3p1:float>
+              <d3p1:float>-0.3684193</d3p1:float>
+              <d3p1:float>-2.30486846</d3p1:float>
+              <d3p1:float>4.366207</d3p1:float>
+              <d3p1:float>7.77168</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">6</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="11" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <Weights xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="12" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>6</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>4</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="13" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>4</d6p1:RowCount>
+            <d6p1:ColumnCount>6</d6p1:ColumnCount>
+            <d6p1:Data z:Id="14" z:Size="24">
+              <d3p1:float>-0.09651674</d3p1:float>
+              <d3p1:float>0.6314019</d3p1:float>
+              <d3p1:float>-0.6585198</d3p1:float>
+              <d3p1:float>-0.131904542</d3p1:float>
+              <d3p1:float>0.9399381</d3p1:float>
+              <d3p1:float>0.151428938</d3p1:float>
+              <d3p1:float>0.7394994</d3p1:float>
+              <d3p1:float>-0.6027727</d3p1:float>
+              <d3p1:float>0.85223335</d3p1:float>
+              <d3p1:float>-0.170423552</d3p1:float>
+              <d3p1:float>0.00725180237</d3p1:float>
+              <d3p1:float>-0.653594136</d3p1:float>
+              <d3p1:float>0.762032449</d3p1:float>
+              <d3p1:float>0.5641516</d3p1:float>
+              <d3p1:float>0.606988847</d3p1:float>
+              <d3p1:float>-0.008668811</d3p1:float>
+              <d3p1:float>0.37587738</d3p1:float>
+              <d3p1:float>-0.5002253</d3p1:float>
+              <d3p1:float>0.439697683</d3p1:float>
+              <d3p1:float>0.219191939</d3p1:float>
+              <d3p1:float>-0.0617151819</d3p1:float>
+              <d3p1:float>-0.4073418</d3p1:float>
+              <d3p1:float>0.9520107</d3p1:float>
+              <d3p1:float>0.7484963</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">6</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_rowCount>
+          <_values z:Ref="14" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Weights>
+        <WeightsGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Relu</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_BatchNormalization_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">false</_x003C_BatchNormalization_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">6</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="15" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>4</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="16" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>4</d6p1:ColumnCount>
+            <d6p1:Data z:Id="17" z:Size="4">
+              <d3p1:float>-1.9983</d3p1:float>
+              <d3p1:float>-6.6072</d3p1:float>
+              <d3p1:float>4.8254</d3p1:float>
+              <d3p1:float>-0.41984</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="17" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </m_inputActivations>
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="18" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:ActivationLayer">
+        <ActivationDerivative xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="19" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>6</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="20" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>6</d6p1:ColumnCount>
+            <d6p1:Data z:Id="21" z:Size="6">
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">6</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="21" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </ActivationDerivative>
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="22" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>6</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="23" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>6</d6p1:ColumnCount>
+            <d6p1:Data z:Id="24" z:Size="6">
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>1.00443268</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>4.366207</d3p1:float>
+              <d3p1:float>7.77168</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">6</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="24" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Relu</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">6</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_activation z:Id="25" xmlns:d5p1="SharpLearning.Neural.Activations" i:type="d5p1:ReluActivation" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Ref="9" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="26" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:DenseLayer">
+        <Bias xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="27" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseVector" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_Count_x003E_k__BackingField>5</d5p1:_x003C_Count_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="28" i:type="d6p1:DenseVectorStorageOffloat">
+            <d6p1:Length>5</d6p1:Length>
+            <d6p1:Data z:Id="29" z:Size="5">
+              <d3p1:float>-0.206395239</d3p1:float>
+              <d3p1:float>0.6003774</d3p1:float>
+              <d3p1:float>-0.210522726</d3p1:float>
+              <d3p1:float>0.474789</d3p1:float>
+              <d3p1:float>0.5169958</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_length xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">5</_length>
+          <_values z:Ref="29" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Bias>
+        <BiasGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="30" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>5</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="31" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>5</d6p1:ColumnCount>
+            <d6p1:Data z:Id="32" z:Size="5">
+              <d3p1:float>0.4031603</d3p1:float>
+              <d3p1:float>3.25622</d3p1:float>
+              <d3p1:float>2.579053</d3p1:float>
+              <d3p1:float>5.479734</d3p1:float>
+              <d3p1:float>5.25871325</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">5</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="32" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <Weights xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="33" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>5</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>6</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="34" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>6</d6p1:RowCount>
+            <d6p1:ColumnCount>5</d6p1:ColumnCount>
+            <d6p1:Data z:Id="35" z:Size="30">
+              <d3p1:float>0.5250439</d3p1:float>
+              <d3p1:float>0.8895474</d3p1:float>
+              <d3p1:float>-0.124864556</d3p1:float>
+              <d3p1:float>1.13237858</d3p1:float>
+              <d3p1:float>-0.2937446</d3p1:float>
+              <d3p1:float>0.128494069</d3p1:float>
+              <d3p1:float>-0.645533144</d3p1:float>
+              <d3p1:float>-0.00299210986</d3p1:float>
+              <d3p1:float>1.11901224</d3p1:float>
+              <d3p1:float>0.529234946</d3p1:float>
+              <d3p1:float>0.321962774</d3p1:float>
+              <d3p1:float>0.161238238</d3p1:float>
+              <d3p1:float>-0.5536664</d3p1:float>
+              <d3p1:float>-0.336084485</d3p1:float>
+              <d3p1:float>0.700997</d3p1:float>
+              <d3p1:float>0.222444236</d3p1:float>
+              <d3p1:float>0.569929242</d3p1:float>
+              <d3p1:float>0.08218567</d3p1:float>
+              <d3p1:float>0.3799781</d3p1:float>
+              <d3p1:float>-0.5275399</d3p1:float>
+              <d3p1:float>0.01200887</d3p1:float>
+              <d3p1:float>-0.13856785</d3p1:float>
+              <d3p1:float>-0.210170969</d3p1:float>
+              <d3p1:float>0.8302546</d3p1:float>
+              <d3p1:float>0.5425207</d3p1:float>
+              <d3p1:float>-0.348709077</d3p1:float>
+              <d3p1:float>0.07432891</d3p1:float>
+              <d3p1:float>0.07149863</d3p1:float>
+              <d3p1:float>0.369655818</d3p1:float>
+              <d3p1:float>0.4475195</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">5</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">6</_rowCount>
+          <_values z:Ref="35" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Weights>
+        <WeightsGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Relu</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_BatchNormalization_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">false</_x003C_BatchNormalization_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">5</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Ref="22" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="36" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:ActivationLayer">
+        <ActivationDerivative xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="37" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>5</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="38" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>5</d6p1:ColumnCount>
+            <d6p1:Data z:Id="39" z:Size="5">
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">5</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="39" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </ActivationDerivative>
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="40" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>5</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="41" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>5</d6p1:ColumnCount>
+            <d6p1:Data z:Id="42" z:Size="5">
+              <d3p1:float>0.4031603</d3p1:float>
+              <d3p1:float>3.25622</d3p1:float>
+              <d3p1:float>2.579053</d3p1:float>
+              <d3p1:float>5.479734</d3p1:float>
+              <d3p1:float>5.25871325</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">5</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="42" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Relu</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">5</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_activation z:Id="43" xmlns:d5p1="SharpLearning.Neural.Activations" i:type="d5p1:ReluActivation" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Ref="30" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="44" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:DenseLayer">
+        <Bias xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="45" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseVector" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_Count_x003E_k__BackingField>4</d5p1:_x003C_Count_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="46" i:type="d6p1:DenseVectorStorageOffloat">
+            <d6p1:Length>4</d6p1:Length>
+            <d6p1:Data z:Id="47" z:Size="4">
+              <d3p1:float>-0.127994165</d3p1:float>
+              <d3p1:float>-0.264284253</d3p1:float>
+              <d3p1:float>0.406263828</d3p1:float>
+              <d3p1:float>-0.09285017</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_length xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_length>
+          <_values z:Ref="47" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Bias>
+        <BiasGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="48" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>4</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="49" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>4</d6p1:ColumnCount>
+            <d6p1:Data z:Id="50" z:Size="4">
+              <d3p1:float>-1.36751878</d3p1:float>
+              <d3p1:float>0.266783834</d3p1:float>
+              <d3p1:float>8.128496</d3p1:float>
+              <d3p1:float>0.159329444</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="50" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <Weights xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="51" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>4</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>5</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="52" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>5</d6p1:RowCount>
+            <d6p1:ColumnCount>4</d6p1:ColumnCount>
+            <d6p1:Data z:Id="53" z:Size="20">
+              <d3p1:float>0.9431475</d3p1:float>
+              <d3p1:float>1.15237176</d3p1:float>
+              <d3p1:float>-0.3750434</d3p1:float>
+              <d3p1:float>-0.4730692</d3p1:float>
+              <d3p1:float>-0.3446832</d3p1:float>
+              <d3p1:float>1.02508318</d3p1:float>
+              <d3p1:float>1.62244427</d3p1:float>
+              <d3p1:float>0.0148759391</d3p1:float>
+              <d3p1:float>-0.4770232</d3p1:float>
+              <d3p1:float>-0.492448628</d3p1:float>
+              <d3p1:float>0.007749795</d3p1:float>
+              <d3p1:float>0.5858606</d3p1:float>
+              <d3p1:float>-0.448639244</d3p1:float>
+              <d3p1:float>0.765408039</d3p1:float>
+              <d3p1:float>0.5275528</d3p1:float>
+              <d3p1:float>-0.03506791</d3p1:float>
+              <d3p1:float>0.0248076785</d3p1:float>
+              <d3p1:float>0.6304996</d3p1:float>
+              <d3p1:float>0.368662864</d3p1:float>
+              <d3p1:float>-0.658094049</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">5</_rowCount>
+          <_values z:Ref="53" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Weights>
+        <WeightsGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Relu</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_BatchNormalization_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">false</_x003C_BatchNormalization_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">4</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Ref="40" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="54" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:ActivationLayer">
+        <ActivationDerivative xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="55" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>4</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="56" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>4</d6p1:ColumnCount>
+            <d6p1:Data z:Id="57" z:Size="4">
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="57" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </ActivationDerivative>
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="58" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>4</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="59" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>4</d6p1:ColumnCount>
+            <d6p1:Data z:Id="60" z:Size="4">
+              <d3p1:float>0</d3p1:float>
+              <d3p1:float>0.266783834</d3p1:float>
+              <d3p1:float>8.128496</d3p1:float>
+              <d3p1:float>0.159329444</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="60" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Relu</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">4</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_activation z:Id="61" xmlns:d5p1="SharpLearning.Neural.Activations" i:type="d5p1:ReluActivation" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Ref="48" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="62" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:DenseLayer">
+        <Bias xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="63" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseVector" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_Count_x003E_k__BackingField>2</d5p1:_x003C_Count_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="64" i:type="d6p1:DenseVectorStorageOffloat">
+            <d6p1:Length>2</d6p1:Length>
+            <d6p1:Data z:Id="65" z:Size="2">
+              <d3p1:float>-0.5801603</d3p1:float>
+              <d3p1:float>0.5801603</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_length xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">2</_length>
+          <_values z:Ref="65" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Bias>
+        <BiasGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="66" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>2</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="67" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>2</d6p1:ColumnCount>
+            <d6p1:Data z:Id="68" z:Size="2">
+              <d3p1:float>-8.236079</d3p1:float>
+              <d3p1:float>4.42872</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">2</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="68" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <Weights xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="69" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>2</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>4</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="70" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>4</d6p1:RowCount>
+            <d6p1:ColumnCount>2</d6p1:ColumnCount>
+            <d6p1:Data z:Id="71" z:Size="8">
+              <d3p1:float>0.472033054</d3p1:float>
+              <d3p1:float>0.89257735</d3p1:float>
+              <d3p1:float>-0.9635675</d3p1:float>
+              <d3p1:float>-0.387180239</d3p1:float>
+              <d3p1:float>-0.432619184</d3p1:float>
+              <d3p1:float>-0.410633177</d3p1:float>
+              <d3p1:float>0.5048604</d3p1:float>
+              <d3p1:float>-0.91411835</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">2</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">4</_rowCount>
+          <_values z:Ref="71" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </Weights>
+        <WeightsGradients xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Undefined</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_BatchNormalization_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">false</_x003C_BatchNormalization_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">2</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+        <m_inputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Ref="58" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+      <d3p1:anyType z:Id="72" xmlns:d4p1="SharpLearning.Neural.Layers" i:type="d4p1:SoftMaxLayer">
+        <NumberOfClasses xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">2</NumberOfClasses>
+        <OutputActivations xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" z:Id="73" xmlns:d5p2="MathNet.Numerics.LinearAlgebra.Single" i:type="d5p2:DenseMatrix" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">
+          <d5p1:_x003C_ColumnCount_x003E_k__BackingField>2</d5p1:_x003C_ColumnCount_x003E_k__BackingField>
+          <d5p1:_x003C_RowCount_x003E_k__BackingField>1</d5p1:_x003C_RowCount_x003E_k__BackingField>
+          <d5p1:_x003C_Storage_x003E_k__BackingField xmlns:d6p1="urn:MathNet/Numerics/LinearAlgebra" z:Id="74" i:type="d6p1:DenseColumnMajorMatrixStorageOffloat">
+            <d6p1:RowCount>1</d6p1:RowCount>
+            <d6p1:ColumnCount>2</d6p1:ColumnCount>
+            <d6p1:Data z:Id="75" z:Size="2">
+              <d3p1:float>3.1604302E-06</d3p1:float>
+              <d3p1:float>0.999996841</d3p1:float>
+            </d6p1:Data>
+          </d5p1:_x003C_Storage_x003E_k__BackingField>
+          <_columnCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">2</_columnCount>
+          <_rowCount xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single">1</_rowCount>
+          <_values z:Ref="75" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra.Single" />
+        </OutputActivations>
+        <_x003C_ActivationFunc_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">Undefined</_x003C_ActivationFunc_x003E_k__BackingField>
+        <_x003C_Depth_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">2</_x003C_Depth_x003E_k__BackingField>
+        <_x003C_Height_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Height_x003E_k__BackingField>
+        <_x003C_Width_x003E_k__BackingField xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers">1</_x003C_Width_x003E_k__BackingField>
+        <m_delta xmlns:d5p1="http://schemas.datacontract.org/2004/07/MathNet.Numerics.LinearAlgebra" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/SharpLearning.Neural.Layers" />
+      </d3p1:anyType>
+    </d2p1:Layers>
+    <d2p1:m_initialization>GlorotUniform</d2p1:m_initialization>
+  </m_neuralNet>
+  <m_targetNames xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="76" z:Size="2">
+    <d2p1:double>0</d2p1:double>
+    <d2p1:double>1</d2p1:double>
+  </m_targetNames>
+</ClassificationNeuralNetModel>
